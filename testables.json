@@ -1,6 +1,6 @@
 {
    "testables" : [
-     { "make_target" : "testable1"
+     { "make_target" : "testable1",
        "hide_results_from_students" : false,
        "test_cases" : [
           { "command" : "./testable1 foo", "points":10, "hide_expected_output":true, "diff_input" : "stdout" },
