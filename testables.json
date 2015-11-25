@@ -4,15 +4,15 @@
        "hide_results_from_students" : false,
        "test_cases" : [
           { "command" : "./testable1 foo", "points":10, "hide_expected_output":true, "diff_input" : "stdout" },
-          { "command" : "./testable1 bar", "points":10, "hide_expected_output":false, "diff_input" : "stderr" },
+          { "command" : "./testable1 bar", "points":10, "hide_expected_output":false, "diff_input" : "stderr" }
        ]
      },
      { "make_target" : "testable2",
        "hide_results_from_students" : true,
        "test_cases" : [
           { "command" : "./testable2 foo", "points":10, "hide_expected_output":true, "diff_input" : "stdout" },
-          { "command" : "./testable2 bar", "points":10, "hide_expected_output":false, "diff_input" : "stderr" },
+          { "command" : "./testable2 bar", "points":10, "hide_expected_output":false, "diff_input" : "stderr" }
        ]
      }
-   ],
+   ]
 }
