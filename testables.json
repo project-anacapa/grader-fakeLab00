@@ -1,0 +1,22 @@
+{
+   "testables" : [
+     { "build_command" : "make testable1",
+       "executable_files" : ["testable1"],
+       "hide_results_from_students" : false,
+       "build_timeout" : 4,
+       "test_cases" : [
+          { "command" : "./testable1 foo", "points":10, "hide_expected_output":true, "diff_input" : "stdout", "execute_timeout" : 4 },
+          { "command" : "./testable1 bar", "points":10, "hide_expected_output":false, "diff_input" : "stderr", "execute_timeout" : 4 }
+       ]
+     },
+     { "build_command" : "make testable2",
+       "executable_files" : ["testable2"],
+       "hide_results_from_students" : true,
+       "build_timeout" : 4,
+       "test_cases" : [
+          { "command" : "./testable2 foo", "points":10, "hide_expected_output":true, "diff_input" : "stdout", "execute_timeout" : 4  },
+          { "command" : "./testable2 bar", "points":10, "hide_expected_output":false, "diff_input" : "stderr", "execute_timeout" : 4  }
+       ]
+     }
+   ]
+}
